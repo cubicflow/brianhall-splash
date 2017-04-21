@@ -2,15 +2,15 @@
 // Links
 // --------------------------------------------------
 a {
-  color: $cream;
+  color: $white;
   transition: 0.2s;
 
   &:visited {
-    color: $cream;
+    color: $white;
   }
 
   &:hover {
-    color: $gold;
+    color: darken($white, 10);
   }
 }
 
