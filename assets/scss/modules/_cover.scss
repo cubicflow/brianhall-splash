@@ -23,7 +23,7 @@
       position: absolute;
       top: 0px;
       left: 0px;
-      background-color: $dchux-purple--dull;
+      background-color: $sky;
       opacity: 0.5;
       z-index: 1;
     }
@@ -65,20 +65,17 @@
       }
 
       &__masthead {
-        width: 100%;
-        max-width: 204px;
-        height: 45px;
+        width: 80%;
         margin-bottom: 60px;
 
         @include breakpoint(medium){
-          max-width: 250px;
-          height: 55px;
+          width: 50%;
           margin-bottom: 60px;
         }
 
         @include breakpoint(large){
-          max-width: 318px;
-          height: 70px;
+          width: 50%;
+          max-width: 420px;
           margin-bottom: 60px;
         }
       }
@@ -92,6 +89,8 @@
       &__comingsoon {
         font-family: $font-family--bold;
         line-height: 1em;
+        text-decoration: underline;
+        
         @include font-size--medium();
 
         @include breakpoint(medium){
