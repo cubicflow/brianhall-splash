@@ -87,17 +87,17 @@
       }
 
       &__comingsoon {
-        background-color: transparentize($white, 0.5);
+        background-color: transparentize($white, 0.3);
         font-family: $font-family--regular;
         line-height: 1em;
         border: 2px solid transparentize($white, 0.5);
         border-radius: 2px;
-        padding: 12px 12px 14px 12px;
+        padding: 11px 11px 12px 11px;
         color: $cocoa;
 
         &:hover {
           color: darken($cocoa, 20);
-          background-color: darken(transparentize($white, 0.5), 20);
+          background-color: darken(transparentize($white, 0.3), 10);
         }
 
         @include font-size--medium();
