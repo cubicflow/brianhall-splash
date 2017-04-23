@@ -10,7 +10,7 @@
   position: relative;
   background-image: url(/assets/img/home/splash-bg.jpg);
   //background-attachment: fixed;
-  background-position: top;
+  background-position: center;
   background-size: cover;
 
   @include breakpoint(medium) {
